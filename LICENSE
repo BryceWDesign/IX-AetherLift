@@ -1,0 +1,33 @@
+IX-AetherLift Open Technology License (IX-AetherLift-OTL)  
+Version 1.0 — July 2025  
+
+Copyright (c) 2025 Bryce Wooster
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this project and associated documentation files (the "Project"), to deal in the Project without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Project, subject to the following conditions:
+
+1. **Purpose Limitation:**  
+   This Project is provided strictly for civilian industrial, scientific, research, and educational purposes. It is explicitly **not authorized** for use in the development, deployment, or operation of weapons systems, military targeting systems, or classified government programs. Violation of this condition voids all license rights.
+
+2. **Export Control Compliance:**  
+   The Project is designed in full compliance with U.S. Export Administration Regulations (EAR) and International Traffic in Arms Regulations (ITAR). It does not contain, nor is it intended to contribute to, classified defense articles or defense services as defined under 22 CFR 120-130.  
+   This Project is released under **public domain civilian technology parameters** and shall be treated accordingly under U.S. and international law.
+
+3. **Attribution Requirement:**  
+   All published copies, modified versions, or derivative works of this Project must retain clear attribution to the original author, Bryce Wooster, including this license text.
+
+4. **Liability Disclaimer:**  
+   The Project is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the author be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from or in connection with the Project or the use or other dealings in the Project.
+
+5. **No Trademark Rights:**  
+   This license does not grant permission to use the trade names, trademarks, service marks, or product names of the author, except as required for reasonable and customary use in describing the origin of the Project.
+
+6. **Jurisdiction:**  
+   This license shall be governed by the laws of the United States of America, with universal jurisdiction recognized to the fullest extent allowable under international law.
+
+---
+
+**Special Notice:**  
+IX-AetherLift-OTL is modeled on the Apache License 2.0 structure, with explicit modifications for dual-use civilian technology controls. It ensures transparency, public accessibility, and legal protections aligned with DARPA Open Source Framework (OSF) recommendations while shielding the author from unintentional export control violations.
+
+Project Maintainer:  
+Bryce Wooster  
