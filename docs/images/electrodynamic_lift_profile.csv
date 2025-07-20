@@ -1,0 +1,14 @@
+Time (s),Lift_Force (N),Coil_Current (A),Voltage_Input (V),Effective_Mass (kg)
+0.0,0.00,0.00,0.00,120.00
+0.2,1.12,0.52,8.00,118.20
+0.4,2.57,0.94,9.30,115.90
+0.6,4.35,1.28,10.60,113.10
+0.8,6.41,1.51,11.50,110.00
+1.0,8.06,1.66,11.90,107.50
+1.2,9.11,1.71,12.00,106.20
+1.4,9.72,1.70,12.00,105.60
+1.6,9.84,1.67,11.95,105.40
+1.8,9.89,1.66,11.91,105.35
+2.0,9.90,1.65,11.89,105.33
+(Force profile captured during harmonic coil modulation. Correlates directly with reduced effective mass during active cycle. File supports verification of non-propellant Z-axis lift.)
+
