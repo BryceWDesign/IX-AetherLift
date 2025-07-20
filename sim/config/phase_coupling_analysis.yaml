@@ -1,0 +1,40 @@
+# IX-AetherLift Phase Coupling Simulation Configuration
+# Version 1.0 — July 2025
+# Author: Bryce Wooster
+# License: IX-AetherLift-OTL
+
+simulation_id: sim-phase-coupling-001
+description: >
+  Configuration for evaluating the influence of relative phase coupling across
+  tri-point harmonic generators on lift stability and field coherence.
+
+environment:
+  temperature_c: 22
+  pressure_kpa: 101.325
+  gravity_m_s2: 9.80665
+
+structure_geometry:
+  shape: equilateral_triangle
+  device_spacing_m: 2.0
+  device_height_m: 1.5
+
+phase_modulation:
+  frequencies_hz: [3, 6, 9]
+  amplitudes: [1.0, 1.0, 1.0]
+  phase_offsets_deg: [0, 120, 240]
+  enable_gankyil: true
+  phase_coupling_sensitivity: 0.91
+  damping_profile: exponential_decay
+
+measurement_targets:
+  - net_force_vector
+  - field_alignment_index
+  - torsional_stability
+  - lift_efficiency
+  - harmonic_resonance_gain
+  - power_draw_variance
+
+output:
+  generate_vector_plot: true
+  save_raw_data: true
+  export_report_pdf: true
