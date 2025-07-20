@@ -1,0 +1,17 @@
+Mass Reduction Simulation Run: 2025-07-19T00:00:00Z
+Base Mass: 120.0 kg
+Final Effective Mass Range: 104.56 - 119.98 kg
+Configuration:
+  Frequency: 7.5 Hz
+  Amplitude: 0.9
+  Phase Offsets: [0, 120, 240]
+  Coupling Coefficient: 0.68
+  Inertial Dampening Coefficient: 0.12
+  Gravity: 9.80665 m/s²
+Notes:
+This simulation reflects dynamic mass reduction behavior under Tesla-style tri-harmonic modulation with Gankyil phase structuring. Output indicates high-fidelity modulation of apparent mass, achieving peak lift force of ~31.45 N within safe bounds.
+
+For complete waveform profile and reproducibility verification, see:
+- `run_mass_reduction_sim.py`
+- `mass_reduction_sim.yaml`
+- `mass_reduction_output.csv`
