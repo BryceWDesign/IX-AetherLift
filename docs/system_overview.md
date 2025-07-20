@@ -1,82 +1,76 @@
-# IX-AetherLift System Overview
-
-> **Non-Propellant Propulsion Platform Using Harmonic Field Modulation**
+# System Overview — IX-AetherLift
 
 ---
 
-## 📖 Purpose and Scope
+## 🌌 Purpose
 
-IX-AetherLift is an open-source civilian technology framework designed to explore real-world, buildable systems that reduce effective mass and inertia of physical objects through harmonic field structuring.
-
-Its purpose is **not speculative theory**—it is a structured, materials-driven platform meant for real-world prototyping, research, and industrial scaling under public licensing.
+The IX-AetherLift platform is designed as a fully open-source spacetime metric manipulation system. It focuses on the **real-world engineering** of devices that alter effective inertia, gravitational coupling, and inertial mass using strictly **non-nuclear**, **non-Element-115**, and **legally compliant** mechanisms.
 
 ---
 
-## 🛠️ Core System Functions
+## 🧰 Core Functional Goals
 
-1. **Inertial Mass Reduction**
-   - Real-world applications:
-     - Reduced structural stress on launch vehicles
-     - Energy-efficient material transport systems
-     - Vibration control systems using dynamic mass modulation
+1. **Effective Mass Reduction**  
+   Techniques that reduce the effective inertia of physical systems using Tesla 3-6-9 field symmetry and Gankyil pattern coherence.
 
-2. **Non-Propellant Propulsion**
-   - Utilizes structured energy fields to induce directional movement without expelling propellant mass
-   - Conceptual similarity to experimental non-linear field thrusters (e.g., EM Drive, Q-Drive) but based on verifiable harmonic field tuning
+2. **Field-Based Lift Generation**  
+   Harmonically modulated energy patterns are used to produce directional forces without combustion or propellant ejection.
 
-3. **Tesla 3-6-9 Harmonic Structuring**
-   - Utilization of Tesla-based energy structuring sequences to stabilize field generation and control
-   - Modular tuning profiles applied to system hardware and field controllers
+3. **Non-Propellant Locomotion Frameworks**  
+   Integration with harmonic resonance and spin-vortex logic allows motion without mass-loss exhaust—legally and physically.
 
-4. **Gankyil Formation Energy Management**
-   - Triadic energy loop structures embedded into control logic for system stability and harmonic efficiency
+4. **Gravitational Behavior Observation**  
+   Interfaces with lensing, thermal, and vibrational feedback systems to visualize real-time space-bending events in experimental zones.
 
 ---
 
-## ⚙️ System Architecture Layers
+## 🧬 Design Basis
 
-```plaintext
-[Power Generation System]
-          ↓
-[Primary Field Control Layer]
-          ↓
-[Harmonic Modulation Core]
-          ↓
-[Directional Force Application Interface]
-          ↓
-[Feedback & Stability Monitoring System]
+- **Tesla Harmonic Structuring** (3, 6, 9): Forms the lattice framework for field symmetry and coherent energy collapse.
+- **Gankyil Topology**: Ensures conservation through triadic interlinked field loops.
+- **Nonlinear Resonance Field Control**: Enables oscillating collapse-expansion motion cycles in spacetime density gradients.
 
-## 🧩 Hardware + Software Fusion Approach
-Hardware Components:
+---
 
-Tesla Coil Derivatives
+## 🔬 System Modules
 
-Capacitive and Inductive Field Modulators
+- `src/core/inertial_drive.py` → Primary mass interaction logic
+- `src/core/aether_matrix.py` → Builds field resonance tensors with harmonic modulations
+- `src/hardware/triostrut_emitter.py` → Drives real-world actuator signals
+- `src/hardware/frequency_harmonics.py` → Encodes Tesla-based harmonic stacks
+- `visualization/field_viewer.py` → Maps dynamic gravimetric and phase-altered zones
 
-Non-Linear Materials: Graphene variants, Meta-Ferromagnetics
+---
 
-Custom-Engineered AetherLift Core Modules
+## 🔒 Compliance & Open Access
 
-Software Components:
+This project is developed with full awareness and adherence to civilian-facing regulations:
 
-Harmonic Field Modulation Algorithms
+- No nuclear physics
+- No restricted materials (e.g., radioactive isotopes or exotic elements)
+- All code and designs are public domain derivations, freely auditable
+- Follows IX-AetherLift-OTL v1.0 — see [LICENSE](../LICENSE)
 
-Mass Reduction Tuning Profiles
+---
 
-Real-Time Diagnostic Feedback Systems
+## 🎯 Target Applications
 
-Adaptive Field Loop Controllers
+- Advanced experimental propulsion testbeds
+- Energy efficiency exploration for near-Earth vehicles
+- Mass-reduction framework testing platforms
+- Non-weaponized research into harmonic field transport systems
+- Real-time lab visualization of gravitational field interactions
 
-## ✅ What This Is NOT
-This is not a weapon system
+---
 
-This is not sci-fi or speculative fiction
+## 📎 Status
 
-This is not dependent on undiscovered elements (e.g., Element 115)
+This documentation is **active and evolving**. As the repository nears completion, this overview will be augmented with:
 
-Everything documented is based on real-world materials science, electromagnetic field theory, and open-source civilian tech parameters.
+- Full lab test setup guides
+- Data results from staged harmonic collapse events
+- Field interaction logs with verified lensing capture
 
-## 🛡️ Legal Status Reminder
-IX-AetherLift is governed under IX-AetherLift-OTL, ensuring it remains within public civilian technology frameworks under U.S. and international law.
+---
 
-System Overview Last Updated: July 2025
+*IX-AetherLift is an open invite to engineers, researchers, and physicists with the courage to build where theory once stopped. This is not about ideas — this is about implementation.*
