@@ -1,0 +1,45 @@
+# IX-AetherLift Structural Control System
+# Triostrut Resonance Coupling Configuration
+# Version 1.0 — July 2025
+# Author: Bryce Wooster
+# License: IX-AetherLift-OTL
+
+triostrut_resonance_coupling:
+  harmonic_structures:
+    - type: Tesla_3_Mode
+      frequency_hz: 369
+      amplitude_range_v: 0.5–5.0
+      phase_shift_deg: 0
+      coupling_coefficient: 0.87
+      notes: Primary base harmonic coupling for core load paths.
+
+    - type: Tesla_6_Mode
+      frequency_hz: 738
+      amplitude_range_v: 0.25–2.5
+      phase_shift_deg: 120
+      coupling_coefficient: 0.63
+      notes: Secondary harmonic layering for transverse stress dampening.
+
+    - type: Tesla_9_Mode
+      frequency_hz: 1107
+      amplitude_range_v: 0.1–1.8
+      phase_shift_deg: 240
+      coupling_coefficient: 0.42
+      notes: Tertiary field modulation—stabilization and fine control.
+
+  gankyil_integration:
+    active: true
+    mode: triple_spiral_resonance
+    self_correcting: true
+    feedback_loop_latency_ms: 0.7
+
+system_limits:
+  max_load_kn: 25
+  max_field_intensity_tesla: 0.15
+  max_operating_temperature_c: 150
+  max_resonance_drift_percent: 0.5
+
+notes:
+  - Tesla 3-6-9 structuring must be maintained at all times.
+  - Gankyil logic integration ensures automatic stabilization under dynamic loads.
+  - Resonance coupling must be recalibrated after structural changes or repairs.
