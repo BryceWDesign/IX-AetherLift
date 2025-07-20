@@ -1,0 +1,47 @@
+# IX-AetherLift Simulation Configuration
+# Mass Reduction System Configuration File
+# Version 1.0 — July 2025
+# Author: Bryce Wooster
+# License: IX-AetherLift-OTL
+
+simulation_id: sim-mass-reduction-001
+description: >
+  Baseline config for simulated inertial mass reduction using phase-tuned field modulation.
+  Parameters support system validation under harmonic resonance injection conditions.
+
+environment:
+  gravity_m_s2: 3.721  # Mars surface gravity for comparative testbed
+  temperature_c: 20
+  pressure_kpa: 101.3
+
+object_properties:
+  shape: cylindrical
+  dimensions_mm:
+    height: 1500
+    diameter: 500
+  base_mass_kg: 124.7
+
+modulation_field:
+  harmonic_core: Tesla-3-6-9
+  gankyil_enabled: true
+  frequency_hz: 369
+  amplitude_scale: 1.00
+  phase_offsets_deg: [0, 120, 240]
+
+material_behavior:
+  response_model: dynamic-density-field
+  field_resonance_coupling: 0.87
+  inertial_dampening_coefficient: 0.66
+
+metrics_to_record:
+  - mass_effective
+  - lift_force_generated
+  - energy_input
+  - displacement_response
+  - system_temperature
+  - time_delta
+
+output:
+  save_to_csv: true
+  plot_curves: true
+  archive_snapshot: true
