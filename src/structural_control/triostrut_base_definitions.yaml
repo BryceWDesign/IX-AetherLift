@@ -1,0 +1,44 @@
+# IX-AetherLift Structural Control System
+# Triostrut Base Configuration Definitions
+# Version 1.0 — July 2025
+# Author: Bryce Wooster
+# License: IX-AetherLift-OTL
+
+triostrut_base_definitions:
+  - id: TRI-01
+    description: Primary structural unit — base segment
+    dimensions:
+      length_mm: 900
+      width_mm: 150
+      height_mm: 150
+    material:
+      core: aerospace-grade aluminum honeycomb
+      skin: graphene-reinforced carbon fiber
+    weight_kg: 11.2
+
+  - id: TRI-02
+    description: Secondary link — diagonal support segment
+    dimensions:
+      length_mm: 450
+      width_mm: 100
+      height_mm: 100
+    material:
+      core: titanium truss-reinforced composite
+      skin: CNT-embedded polymer resin
+    weight_kg: 7.8
+
+  - id: TRI-03
+    description: Connector node — universal joint assembly
+    dimensions:
+      diameter_mm: 120
+      height_mm: 50
+    material:
+      core: monolithic tungsten-carbon alloy
+      coating: non-conductive ceramic isolation
+    weight_kg: 5.3
+
+notes:
+  - All Triostrut units harmonized for Tesla 3-6-9 modular spacing ratios.
+  - Gankyil formation logic integrated for optimal resonance distribution.
+  - Base units rated for up to 22 kN load across primary axis.
+  - Anti-vibration and inertial dampening channels embedded within core.
