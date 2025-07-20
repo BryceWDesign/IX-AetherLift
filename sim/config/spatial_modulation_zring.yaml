@@ -1,0 +1,46 @@
+# IX-AetherLift Z-Axis Modulation Ring Configuration
+# Version 1.0 — July 2025
+# Author: Bryce Wooster
+# License: IX-AetherLift-OTL
+
+simulation_id: sim-zring-modulation-002
+description: >
+  Configuration for vertically stacked phase-coupled rings introducing spatial Z-axis field modulation
+  to enhance lift uniformity and suppress instability during harmonic phase convergence.
+
+environment:
+  temperature_c: 22
+  pressure_kpa: 101.325
+  gravity_m_s2: 9.80665
+
+array_geometry:
+  vertical_stacks: 3
+  devices_per_layer: 3
+  layer_spacing_m: 0.5
+  ring_radius_m: 1.5
+
+modulation_pattern:
+  enable_zring: true
+  zring_frequency_hz: 18
+  zring_phase_offset_deg: 60
+  synchronization_logic: "harmonic phase sum, modulo 3"
+  field_ramp_profile: linear_smooth
+  spin_direction: clockwise
+
+stability_control:
+  active_feedback_loop: false
+  passive_stabilization: true
+  resonance_clipping_threshold: 0.91
+  power_limit_watts: 100
+
+observation_targets:
+  - vertical_force_distribution
+  - axial coherence ratio
+  - transverse drift suppression
+  - harmonic interference zones
+  - zring field shaping efficiency
+
+output:
+  save_json_data: true
+  export_field_map_plot: true
+  export_summary_pdf: true
